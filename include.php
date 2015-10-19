@@ -4,8 +4,8 @@ ini_set('max_execution_time', 300);
  * it sets the application id and application secret id
  *
  */
-$fb_app_id = '';//Please specify app id
-$fb_secret_id = '';//Please specify app secret
+$fb_app_id = '885946594787141';//Please specify app id
+$fb_secret_id = '5f30c4ed634384b694f09258284fab21';//Please specify app secret
 
 $fb_login_url = 'http://localhost:9090/facebook-rtCamp-challenge/index.php';
 

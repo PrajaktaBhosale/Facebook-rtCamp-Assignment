@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>:: Welcome To rtCamp Facebook Challenge ::</title>
+<title>Welcome To rtCamp Facebook Challenge</title>
 <script type="text/javascript" src="lib/js/jquery-1.10.0.min.js"></script>
 <link rel="stylesheet" href="lib/css/bootstrap.css" />
 <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
@@ -209,7 +209,7 @@ try {
 				}
     
 	$("#download-all-albums").on("click", function() {
-        append_download_link("lib/download_album.php?zip=1&all_albums=all_albums");
+        append_download_link("download_album.php?zip=1&all_albums=all_albums");
 
 	});
 //single download
@@ -218,7 +218,7 @@ try {
 					var rel = $(this).attr("rel");
 					var album = rel.split(",");
 
-					append_download_link("lib/download_album.php?zip=1&single_album="+album[0]+","+album[1]);
+					append_download_link("download_album.php?zip=1&single_album="+album[0]+","+album[1]);
 				});
 
     
@@ -243,7 +243,7 @@ try {
     $("#download-selected-albums").on("click", function() {
         
 					var selected_albums = get_all_selected_albums();
-					append_download_link("lib/download_album.php?zip=1&selected_albums="+selected_albums);
+					append_download_link("download_album.php?zip=1&selected_albums="+selected_albums);
 				});
 </script>
 </html>

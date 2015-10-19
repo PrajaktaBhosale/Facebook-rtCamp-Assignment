@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>::Slide::</title>
+<title>Slideshow</title>
     <?php
         use Facebook\FacebookSession;
 		use Facebook\FacebookRedirectLoginHelper;
