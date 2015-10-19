@@ -1,1 +1,0 @@
-# rtCamp-Facebook-Assignment
