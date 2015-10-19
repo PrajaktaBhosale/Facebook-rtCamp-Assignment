@@ -1,5 +1,5 @@
 <?php
-require_once ('include.php');
+require_once('include.php');
 
 use Facebook\GraphObject;
 use Facebook\GraphSessionInfo;

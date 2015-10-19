@@ -61,8 +61,6 @@ try {
     <div class="container" style="margin-top: 5px; padding-top: 0px">
 		<div class="header " style="padding-bottom: 5px">
 			<nav>
-			
-			
 			<ul class="nav nav-pills pull-right">
 				<li class="" role="presentation"><span><img class="img-circle"
 						src="https://graph.facebook.com/<?php echo $userinfo['id']; ?>/picture"
@@ -72,7 +70,7 @@ try {
 				<li class="active"><a href="logout.php">Logout</a></li>
 			</ul>
 			</nav>
-			<h2 class="text-muted">Facebook rtCamp Challenge</h2>
+			<h2 class="text-muted">FACEBOOK RTCAMP CHALLENGE</h2>
 		</div>
 		<hr>
 			<hr>
@@ -211,7 +209,7 @@ try {
 				}
     
 	$("#download-all-albums").on("click", function() {
-        append_download_link("../download_album.php?zip=1&all_albums=all_albums");
+        append_download_link("lib/download_album.php?zip=1&all_albums=all_albums");
 
 	});
 //single download
@@ -220,11 +218,11 @@ try {
 					var rel = $(this).attr("rel");
 					var album = rel.split(",");
 
-					append_download_link("../download_album.php?zip=1&single_album="+album[0]+","+album[1]);
+					append_download_link("lib/download_album.php?zip=1&single_album="+album[0]+","+album[1]);
 				});
 
     
-    //get selected data
+    //get selected data/lib
     
     function get_all_selected_albums() {
         
@@ -245,7 +243,7 @@ try {
     $("#download-selected-albums").on("click", function() {
         
 					var selected_albums = get_all_selected_albums();
-					append_download_link("../download_album.php?zip=1&selected_albums="+selected_albums);
+					append_download_link("lib/download_album.php?zip=1&selected_albums="+selected_albums);
 				});
 </script>
 </html>

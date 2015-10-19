@@ -10,15 +10,15 @@
 		use Facebook\FacebookRequestException;
 		use Facebook\FacebookAuthorizationException;
 		use Facebook\GraphObject;
-        include('/include.php');
+        include('include.php');
 	?>
-        <script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js"></script>
-        <script type="text/javascript" src="../lib/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../lib/js/bootstrap.js"></script>
-        <link rel="stylesheet" href="../lib/css/bootstrap.css" />
-        <link rel="stylesheet" href="../lib/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="../lib/css/bootstrap-theme.css" />
-        <script type="text/javascript" src="../lib/js/jquery.carousel.fullscreen.js"></script>
+        <script type="text/javascript" src="lib/js/jquery-1.10.0.min.js"></script>
+        <script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="lib/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="lib/css/bootstrap.css" />
+        <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="lib/css/bootstrap-theme.css" />
+        <script type="text/javascript" src="lib/js/jquery.carousel.fullscreen.js"></script>
 </head>
 <body>
 <div >
